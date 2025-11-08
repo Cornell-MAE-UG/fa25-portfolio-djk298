@@ -13,7 +13,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Deepti Kousik
 description              : Deepti Kousik - Projects and CV 
-baseurl                  : "" 
+baseurl                  : "fa25-portfolio-djk298" 
 
 # Theme and Style
 theme: jekyll-theme-minimal
