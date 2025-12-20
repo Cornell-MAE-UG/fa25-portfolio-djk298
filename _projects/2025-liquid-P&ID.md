@@ -11,9 +11,9 @@ Currently, my project for the 2025-2026 school year for Cornell Rocketry revolve
 
 <h2>Tech Report</h2>
 
-<a href="assets/pdfs/TechReport.pdf" download>
+<a href="assets/TechReport.pdf" download>
   <iframe
-    src="assets/pdfs/TechReport.pdf"
+    src="assets/TechReport.pdf"
     width="100%"
     height="600px"
     style="border: 1px solid #ccc; cursor: pointer;"
@@ -21,7 +21,7 @@ Currently, my project for the 2025-2026 school year for Cornell Rocketry revolve
 </a>
 
 <p>
-  <a href="assets/pdfs/TechReport.pdf" download>Download PDF</a>
+  <a href="assets/TechReport.pdf" download>Download PDF</a>
 </p>
 
 
