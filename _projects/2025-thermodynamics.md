@@ -73,10 +73,6 @@ $$
 = \dot{m} g (z_{in} - z_{out})
 $$
 
-$$
-\dot{W}_{shaft}
-= \dot{m} g (z_{in} - z_{out})
-$$
 
 $$
 \dot{W}_{shaft}
