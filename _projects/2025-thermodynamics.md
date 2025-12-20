@@ -7,18 +7,18 @@ image: /assets/images/thermo/thermo-7.png
 ---
 
 
-**Niagara Falls - The Rankine Generation Station**
+# Niagara Falls - The Rankine Generation Station**
 **Isaac Kahn, Bridget McAvoy, Deepti Kousik**  
 **Thermodynamics - ENGRD 2210** 
 
 ---
 
-**Chosen Device or System:**
+# Chosen Device or System:
 **Niagara Falls Turbines**
 
 ---
 
-<img src="{{ "/assets/images/thermo/thermo-1.png" | relative_url }}" width="48%" alt="Niagara Falls Power Station Overview">
+<img src="{{ "/assets/images/thermo/thermo-1.png" | relative_url }}" width="48%" alt="Niagara Falls Power Station">
 <img src="{{ "/assets/images/thermo/thermo-2.png" | relative_url }}" width="48%" alt="Niagara Falls Turbine Diagram">
 <img src="{{ "/assets/images/thermo/thermo-3.png" | relative_url }}" width="48%" alt="Interior of Power Station">
 <img src="{{ "/assets/images/thermo/thermo-4.png" | relative_url }}" width="48%" alt="Historical Power Station View">
