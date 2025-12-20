@@ -16,10 +16,3 @@ permalink: /projects/
     {% endfor %}
 </div>
 </div>
-
-.project-gallery .gallery-item p {
-  white-space: normal !important;
-  overflow: visible !important;
-  text-overflow: unset !important;
-  height: auto !important;
-}
