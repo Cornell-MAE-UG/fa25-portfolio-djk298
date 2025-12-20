@@ -39,7 +39,9 @@ Overall diagram of the generation station:
 <br>
 <img src="{{ "/assets/images/thermo/thermo-5.png" | relative_url }}" alt="System Diagram of Niagara Falls Turbines" width="48%" class="center-image">
 <br>
+<br>
 Schematics for analysis: 
+<br>
 <br>
 <img src="{{ "/assets/images/thermo/thermo-6.png" | relative_url }}" width="48%" alt="Turbine">
 <img src="{{ "/assets/images/thermo/thermo-7.png" | relative_url }}" width="48%" alt="Flow Path Visualization">
