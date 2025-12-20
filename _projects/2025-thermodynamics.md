@@ -98,3 +98,11 @@ There are several changes that could be made to the operation of the turbine. In
 
 Turbines also have optimal flow ranges where efficiency is highest. Increasing flow beyond this point can result in turbulence and hydraulic losses, while operating below this point will similarly be inefficient. Thus, extracting maximum energy must be balanced with the system conditions. Refurbishing the turbine blades to reduce turbulence will improve the turbine efficiency and minimize hydraulic losses, changing the power output without having to change the overall height of the fall. Reducing turbulence in other parts of the system - namely, the penstocks and the forebay - will help ensure the fluid reaches the turbines without significant energy losses due to friction and will help maximize overall efficiency. 	
 
+
+## References
+
+
+[1] http://spiff.rit.edu/classes/phys213/lectures/niagara/niagara.html
+[2] http://www.niagarafrontier.com/power.html
+[3] https://freaktography.com/canadian-niagara-power-station-and-tailrace-urban-exploring/?srsltid=AfmBOopTgFbLsaM-wVhE0ruC_KnSoa3pnhIuvyfGK-C-TrjtpmlksZo1&v=0b3b97fa6688
+[4] https://www.croatianhistory.net/etf/teslan.html
