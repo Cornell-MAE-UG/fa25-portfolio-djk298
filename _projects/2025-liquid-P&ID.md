@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Bi-Propellant Rocket Fluid Systems 
+title: testing
 description: Cornell Rocketry System Design
 technologies: [Piping & Instrumentation Diagrams]
 image: /assets/images/liquid-CAD.png
