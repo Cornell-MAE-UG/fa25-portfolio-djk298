@@ -5,6 +5,9 @@ description: Applying Thermodynamic Concepts to Niagara Falls
 technologies: [Thermodynamics]
 image: /assets/images/thermo/thermo-7.png
 ---
+$$
+\eta = \frac{W_{act}}{W_{shaft}}
+$$
 
 # Niagara Fals - The Rankine Generation Station
 
