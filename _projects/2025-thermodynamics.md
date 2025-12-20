@@ -41,8 +41,8 @@ Overall diagram of the generation station:
 <br>
 Schematics for analysis: 
 <br>
-<img src="{{ "/assets/images/thermo/thermo-6.png" | relative_url }}" width="48%" alt="Turbine" class="center-image">
-<img src="{{ "/assets/images/thermo/thermo-7.png" | relative_url }}" width="48%" alt="Flow Path Visualization" class="center-image">
+<img src="{{ "/assets/images/thermo/thermo-6.png" | relative_url }}" width="48%" alt="Turbine">
+<img src="{{ "/assets/images/thermo/thermo-7.png" | relative_url }}" width="48%" alt="Flow Path Visualization">
 
 
 
