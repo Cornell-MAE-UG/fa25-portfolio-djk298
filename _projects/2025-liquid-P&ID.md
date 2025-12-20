@@ -12,18 +12,18 @@ Currently, my project for the 2025-2026 school year for Cornell Rocketry revolve
 <h3>Tech Report</h3>
 
 <a href="{{ "/assets/TechReport.pdf" | relative_url }}" download>
-  <iframe
-    src="{{ "/assets/TechReport.pdf" | relative_url }}"
-    width="100%"
-    height="600px"
-    style="border: 1px solid #ccc;"
-  ></iframe>
+  <img
+    src="{{ "/assets/images/TechReport-preview.png" | relative_url }}"
+    alt="Tech Report preview"
+    style="width: 100%; max-width: 700px; border: 1px solid #ccc;"
+  />
 </a>
 
 <p>
-  <a href="{{ "/assets/TechReport.pdf" | relative_url }}" download>
+  <a href="{{ "/assets/Tech Report.pdf" | relative_url }}" download>
     Download my Tech Report (PDF)
   </a>
 </p>
+
 
 
