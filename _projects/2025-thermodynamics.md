@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Thermodynamic Analysis
+title: Thermodynamic System Analysis
 description: Applying Thermodynamic Concepts to a 2 Stroke Engine
 technologies: [Thermodynamics]
 image: /assets/images/thermo.jpg
