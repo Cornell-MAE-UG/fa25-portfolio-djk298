@@ -35,10 +35,12 @@ First, the river was diverted into a forebay. Then, it flowed through penstocks 
 
 ## System Diagrams
 
-Overall diagram of the ge eration station: 
+Overall diagram of the generation station: 
+<br>
 <img src="{{ "/assets/images/thermo/thermo-5.png" | relative_url }}" alt="System Diagram of Niagara Falls Turbines" width="48%" class="center-image">
 <br>
 Schematics for analysis: 
+<br>
 <img src="{{ "/assets/images/thermo/thermo-6.png" | relative_url }}" width="48%" alt="Turbine" class="center-image">
 <img src="{{ "/assets/images/thermo/thermo-7.png" | relative_url }}" width="48%" alt="Flow Path Visualization" class="center-image">
 
