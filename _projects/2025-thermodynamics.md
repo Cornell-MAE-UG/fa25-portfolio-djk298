@@ -14,7 +14,8 @@ image: /assets/images/thermo/thermo-7.png
 ---
 
 # Chosen Device or System:
-**Niagara Falls Turbines**
+**Niagara Falls**
+**Rankine Generation Station Turbines**
 
 ---
 
@@ -29,13 +30,14 @@ image: /assets/images/thermo/thermo-7.png
 The Rankine Generating Station was built between 1901 and 1905 by the Canadian Niagara Power Company on the Canada side of Niagara Falls. It was named after its founder, William Birch Rankine and did not employ a Rankine Cycle. Instead, it generated hydroelectric power from the gravitational potential energy of the Niagara River before the falls. For 100 years it provided power to the surrounding area before closing in 2005. The closing was due to the generators outputting 25Hz AC current (as opposed to the modern American standard of 60Hz), and the turbine shafts slipping out of alignment. 
 
 First, the river was diverted into a forebay. Then, it flowed through penstocks (a pipe) into the eleven turbines that made up this generating station. These Francis turbines converted this energy into work. Francis Turbines are radial flow and are optimized for high pressure, low flow rate applications. For our analysis, we assume changes in kinetic energy and enthalpy of the water from the top of the penstock to the outlet of the turbine are negligible. We sourced values from various websites for mass flow rate, change in height, and output power to calculate the efficiency of the Rankine generating station. These turbines had a cumulative power output of 76.4MW, although this dwindled before the station’s closing in 2005. 
-
+<br>
 
 ---
 
 ## System Diagrams
-
+<br>
 Overall diagram of the generation station: 
+<br>
 <br>
 <img src="{{ "/assets/images/thermo/thermo-5.png" | relative_url }}" alt="System Diagram of Niagara Falls Turbines" width="48%" class="center-image">
 <br>
@@ -99,6 +101,7 @@ There are several changes that could be made to the operation of the turbine. In
 
 Turbines also have optimal flow ranges where efficiency is highest. Increasing flow beyond this point can result in turbulence and hydraulic losses, while operating below this point will similarly be inefficient. Thus, extracting maximum energy must be balanced with the system conditions. Refurbishing the turbine blades to reduce turbulence will improve the turbine efficiency and minimize hydraulic losses, changing the power output without having to change the overall height of the fall. Reducing turbulence in other parts of the system - namely, the penstocks and the forebay - will help ensure the fluid reaches the turbines without significant energy losses due to friction and will help maximize overall efficiency. 	
 
+---
 
 ## References
 
