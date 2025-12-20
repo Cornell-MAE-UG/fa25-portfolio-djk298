@@ -50,14 +50,12 @@ Schematics for analysis:
 
 ---
 
-**Mass Balance**
+**Physical Equations**
 
 
 $$
 \dot{m}_{in} = \dot{m}_{out}
 $$
-
-**Energy Balance**
 
 $$
 \dot{E}_{CV} = 0
