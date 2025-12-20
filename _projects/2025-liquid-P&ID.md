@@ -1,6 +1,6 @@
 ---
 layout: project
-title: testing
+title: Rocket Fluid Systems
 description: Cornell Rocketry System Design
 technologies: [Piping & Instrumentation Diagrams]
 image: /assets/images/liquid-CAD.png
