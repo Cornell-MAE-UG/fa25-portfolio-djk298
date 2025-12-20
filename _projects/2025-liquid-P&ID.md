@@ -11,7 +11,9 @@ Currently, my project for the 2025-2026 school year for Cornell Rocketry revolve
 
 <br> 
 <br>
+---
 <br>
+<br> 
 
 <a href="{{ "/assets/images/liquid-diagram.png" | relative_url }}" download>
   <img
@@ -20,8 +22,9 @@ Currently, my project for the 2025-2026 school year for Cornell Rocketry revolve
     style="width: 100%; max-width: 700px; border: 1px solid #ccc;"
   />
 </a>
-
-
+<br>
+--- 
+<br>
 <h4>System Tech Report</h4>
 <a href="{{ "/assets/TechReport.pdf" | relative_url }}" download>
   <img
