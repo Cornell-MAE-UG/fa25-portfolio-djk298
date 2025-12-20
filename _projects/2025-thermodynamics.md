@@ -5,9 +5,7 @@ description: Applying Thermodynamic Concepts to Niagara Falls
 technologies: [Thermodynamics]
 image: /assets/images/thermo/thermo-7.png
 ---
-$$
-\eta = \frac{W_{act}}{W_{shaft}}
-$$
+
 
 # Niagara Fals - The Rankine Generation Station
 
@@ -51,35 +49,50 @@ First, the river was diverted into a forebay. Then, it flowed through penstocks 
 
 **Mass Balance**
 
-\[
+
+$$
 \dot{m}_{in} = \dot{m}_{out}
-\]
+$$
 
 **Energy Balance**
 
-\[
-\dot{E}_{CV} = 0 = -\dot{W}_{shaft} + \dot{m}
+$$
+\dot{E}_{CV} = 0
+= -\dot{W}_{shaft}
++ \dot{m}
 \left(
 \frac{v_{in}^2 - v_{out}^2}{2}
 + h_{in} - h_{out}
-+ g(z_{in} - z_{out})
++ g (z_{in} - z_{out})
 \right)
-\]
+$$
 
-\[
-\dot{W}_{shaft} = \dot{m} g (z_{in} - z_{out})
-\]
 
-\[
+$$
 \dot{W}_{shaft}
-= (0.1 \times 1600 \, m^3/s \times 1000 \, kg/m^3)
-(9.81 \, m/s^2)(54.9 \, m)
-= 86.2 \, MW
-\]
+= \dot{m} g (z_{in} - z_{out})
+$$
 
-\[
-\text{Efficiency} = \frac{W_{act}}{W_{shaft}} = \frac{76.4}{86.2} = 88.7\%
-\]
+$$
+\dot{W}_{shaft}
+= \dot{m} g (z_{in} - z_{out})
+$$
+
+$$
+\dot{W}_{shaft}
+= (0.1 \times 1600 \, \text{m}^3/\text{s} \times 1000 \, \text{kg}/\text{m}^3)
+(9.81 \, \text{m}/\text{s}^2)
+(54.9 \, \text{m})
+= 86.2 \, \text{MW}
+$$
+
+$$
+\eta
+= \frac{W_{act}}{W_{shaft}}
+= \frac{76.4}{86.2}
+= 88.7\%
+$$
+
 
 ---
 
