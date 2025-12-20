@@ -101,6 +101,11 @@ Turbines also have optimal flow ranges where efficiency is highest. Increasing f
 
 
 [1] http://spiff.rit.edu/classes/phys213/lectures/niagara/niagara.html
+<br>
 [2] http://www.niagarafrontier.com/power.html
+<br>
 [3] https://freaktography.com/canadian-niagara-power-station-and-tailrace-urban-exploring/?srsltid=AfmBOopTgFbLsaM-wVhE0ruC_KnSoa3pnhIuvyfGK-C-TrjtpmlksZo1&v=0b3b97fa6688
+<br>
 [4] https://www.croatianhistory.net/etf/teslan.html
+<br>
+[5]  https://vividcomm.com/2025/08/14/niagara-parks-power-station-history-technology-and-legacy/
