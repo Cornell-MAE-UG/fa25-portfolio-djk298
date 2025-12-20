@@ -7,7 +7,7 @@ image: /assets/images/thermo/thermo-7.png
 ---
 
 
-# Niagara Falls - The Rankine Generation Station**
+# Niagara Falls - The Rankine Generation Station
 **Isaac Kahn, Bridget McAvoy, Deepti Kousik**  
 **Thermodynamics - ENGRD 2210** 
 
