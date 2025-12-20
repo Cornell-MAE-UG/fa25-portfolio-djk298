@@ -16,7 +16,6 @@ Currently, my project for the 2025-2026 school year for Cornell Rocketry revolve
   />
 
 <h4>System Tech Report</h4>
-<p> Click to Download </p>
 <a href="{{ "/assets/TechReport.pdf" | relative_url }}" download>
   <img
     src="{{ "/assets/images/TechReport-preview.png" | relative_url }}"
