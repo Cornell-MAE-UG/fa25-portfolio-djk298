@@ -3,7 +3,7 @@ layout: project
 title: Thermodynamic System Analysis
 description: Applying Thermodynamic Concepts to Niagara Falls
 technologies: [Thermodynamics]
-image: /assets/images/thermo.jpg
+image: /assets/images/thermo/thermo-7.png
 ---
 
 # Thermodynamic Analysis of the Rankine Power Station
@@ -19,10 +19,10 @@ image: /assets/images/thermo.jpg
 ---
 
 <div class="image-grid">
-  <img src="/assets/images/thermo-1.jpg" alt="Niagara Falls Power Station Overview">
-  <img src="/assets/images/thermo-2.jpg" alt="Niagara Falls Turbine Diagram">
-  <img src="/assets/images/thermo-3.jpg" alt="Interior of Power Station">
-  <img src="/assets/images/thermo-4.jpg" alt="Historical Power Station View">
+  <img src="/assets/images/thermo-1.png" alt="Niagara Falls Power Station Overview">
+  <img src="/assets/images/thermo-2.png" alt="Niagara Falls Turbine Diagram">
+  <img src="/assets/images/thermo-3.png" alt="Interior of Power Station">
+  <img src="/assets/images/thermo-4.png" alt="Historical Power Station View">
 </div>
 
 ## Qualitative Description
@@ -50,11 +50,11 @@ although this dwindled before the station’s closing in 2005.
 
 ## System Diagrams
 
-<img src="/assets/images/thermo-5.jpg" alt="System Diagram of Niagara Falls Turbines" class="center-image">
+<img src="/assets/images/thermo-5.png" alt="System Diagram of Niagara Falls Turbines" class="center-image">
 
 <div class="image-grid">
-  <img src="/assets/images/thermo-6.jpg" alt="Turbine Components">
-  <img src="/assets/images/thermo-7.jpg" alt="Flow Path Visualization">
+  <img src="/assets/images/thermo-6.png" alt="Turbine">
+  <img src="/assets/images/thermo-7.png" alt="Flow Path Visualization">
 </div>
 
 
