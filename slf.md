@@ -13,7 +13,7 @@ header-includes:
 **Team:** _Team Dragonfly_
 **Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
 
-## Problem statement (most important)
+## Problem statement
 
 Vineyard owners and grape farmers in the Northeast United States are invaded by high numbers of spotted lanternflies that drive out beneficial native species and infiltrate harvests. The spotted lanternfly (SLF) population grows rapidly due to a high number of nymphs surviving to adulthood, where they reproduce abundantly, increasing their population by a factor of 5.47. Current solutions primarily target adults rather than their egg masses, but rapid population growth is already occurring by this stage, increasing the severity of their impact in a certain location regardless. 
 
