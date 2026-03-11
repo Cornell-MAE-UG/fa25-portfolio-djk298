@@ -7,7 +7,7 @@ image: /assets/images/heat-transfer.png
 ---
 
 
-<h1>Heat Transfer Problem Set 1e</h1>
+# Heat Transfer Problem Set 1
 
 ## Overview
 
@@ -25,5 +25,15 @@ Finally, the rooftop problem modeled convection and radiation, combining these t
 
 You can view the full homework submission here:
 
-[Download Problem Set 1 PDF](../assets/ht-problem-set-1.pdf)
+Download my full analysis/assignment by clicking on the image below: 
 
+<br>
+
+<a href="{{ "/assets/images/heat-transfer-problem-set.pdf" | relative_url }}" download>
+  <img
+    src="{{ "/assets/images/heat-transfer.png" | relative_url }}"
+    alt="Heat Transfer Problem Set"
+    style="width: 100%; max-width: 700px; border: 1px solid #ccc;"
+  />
+</a>
+<br>
