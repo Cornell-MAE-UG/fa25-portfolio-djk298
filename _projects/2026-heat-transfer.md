@@ -25,4 +25,4 @@ Finally, the rooftop problem modeled convection and radiation, combining these t
 
 You can view the full homework submission here:
 
-[Download Problem Set 1 PDF](../assets/ht-problem-set-1.pdf)
+[Download Problem Set 1 PDF](/assets/ht-problem-set-1.pdf)
