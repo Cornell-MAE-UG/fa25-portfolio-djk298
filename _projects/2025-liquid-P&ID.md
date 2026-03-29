@@ -140,7 +140,7 @@ image: /assets/images/liquid-CAD.png
 
 <p class="section-label">Project Overview</p>
 <div class="highlight-box">
-  This project centers on designing the full fluid system architecture for Cornell Rocketry's first bipropellant liquid rocket engine. As a member of the liquid propulsion team, I am responsible for taking the system from concept to a complete, safety-reviewed design.
+  This project centers on designing the full fluid system architecture for Cornell Rocketry's first bipropellant liquid rocket engine. I am responsible for taking the system from concept to a complete, safety-reviewed design.
 </div>
 
 <p class="section-label">Responsibilities</p>
