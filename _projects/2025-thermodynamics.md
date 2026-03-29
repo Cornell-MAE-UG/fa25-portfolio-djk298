@@ -6,109 +6,242 @@ technologies: [Thermodynamics]
 image: /assets/images/thermo/thermo-7.png
 ---
 
+<style>
+  .proj-hero {
+    background: linear-gradient(135deg, #2a4858 0%, #3a6070 100%);
+    color: #fff;
+    border-radius: 10px;
+    padding: 2.2rem 2rem 1.8rem;
+    margin-bottom: 2rem;
+  }
+  .proj-hero h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.8rem;
+    margin: 0 0 0.4rem;
+    color: #fff;
+  }
+  .proj-hero .course-tag {
+    display: inline-block;
+    background: rgba(255,255,255,0.15);
+    border-radius: 20px;
+    padding: 0.2rem 0.8rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  .proj-hero p {
+    margin: 0;
+    line-height: 1.7;
+    color: rgba(255,255,255,0.88);
+    max-width: 680px;
+    font-size: 0.97rem;
+  }
+  .proj-hero .authors {
+    margin-top: 0.8rem;
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.65);
+    font-style: italic;
+  }
 
-# Niagara Falls - The Rankine Generation Station
-**Isaac Kahn, Bridget McAvoy, Deepti Kousik**  
-**Thermodynamics - ENGRD 2210** 
+  .section-label {
+    font-family: 'Merriweather', serif;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: #3a3f58;
+    border-left: 3px solid #3a3f58;
+    padding-left: 0.6rem;
+    margin: 2rem 0 0.8rem;
+  }
 
----
+  .highlight-box {
+    background: #f0f2f8;
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.2rem 0;
+    line-height: 1.75;
+    font-size: 0.97rem;
+  }
 
-# Chosen Device or System:
-**Niagara Falls**
-**Rankine Generation Station Turbines**
+  .skill-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0.8rem 0 1.5rem;
+  }
+  .chip {
+    background: #e8eaf0;
+    color: #3a3f58;
+    border-radius: 20px;
+    padding: 0.25rem 0.85rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+  }
 
----
+  .image-grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 1rem 0 2rem;
+  }
+  .image-grid-2 img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.11);
+    display: block;
+  }
+  .image-single {
+    margin: 1rem 0 2rem;
+  }
+  .image-single img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.11);
+    display: block;
+  }
+  .img-caption {
+    font-size: 0.82rem;
+    color: #777;
+    margin-top: 0.5rem;
+    font-style: italic;
+  }
 
-<img src="{{ "/assets/images/thermo/thermo-1.png" | relative_url }}" width="48%" alt="Niagara Falls Power Station">
-<img src="{{ "/assets/images/thermo/thermo-2.png" | relative_url }}" width="48%" alt="Niagara Falls Turbine Diagram">
-<img src="{{ "/assets/images/thermo/thermo-3.png" | relative_url }}" width="48%" alt="Interior of Power Station">
-<img src="{{ "/assets/images/thermo/thermo-4.png" | relative_url }}" width="48%" alt="Historical Power Station View">
+  .equation-block {
+    background: #1e2235;
+    color: #e8eaf0;
+    border-radius: 8px;
+    padding: 1.4rem 1.8rem;
+    margin: 1rem 0 2rem;
+    overflow-x: auto;
+  }
+  .equation-block p {
+    margin: 0.5rem 0;
+    font-family: 'Courier New', monospace;
+    font-size: 0.95rem;
+    line-height: 1.8;
+    color: #c8d0f0;
+  }
+  .equation-block .eq-result {
+    color: #a8d8a8;
+    font-weight: bold;
+  }
 
+  .result-card {
+    display: inline-block;
+    background: #3a3f58;
+    color: #fff;
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    margin: 0.5rem 0 1.5rem;
+    font-family: 'Merriweather', serif;
+  }
+  .result-card .result-number {
+    font-size: 2rem;
+    font-weight: 700;
+    display: block;
+    line-height: 1.2;
+  }
+  .result-card .result-label {
+    font-size: 0.8rem;
+    opacity: 0.75;
+    letter-spacing: 0.05em;
+  }
 
-## Qualitative Description
+  .refs { font-size: 0.85rem; line-height: 2; }
+  .refs a { color: #3a3f58; }
+</style>
 
-The Rankine Generating Station was built between 1901 and 1905 by the Canadian Niagara Power Company on the Canada side of Niagara Falls. It was named after its founder, William Birch Rankine and did not employ a Rankine Cycle. Instead, it generated hydroelectric power from the gravitational potential energy of the Niagara River before the falls. For 100 years it provided power to the surrounding area before closing in 2005. The closing was due to the generators outputting 25Hz AC current (as opposed to the modern American standard of 60Hz), and the turbine shafts slipping out of alignment. 
+<a class="back-arrow" href="{{ "/projects/" | relative_url }}">← Back to Projects</a>
 
-First, the river was diverted into a forebay. Then, it flowed through penstocks (a pipe) into the eleven turbines that made up this generating station. These Francis turbines converted this energy into work. Francis Turbines are radial flow and are optimized for high pressure, low flow rate applications. For our analysis, we assume changes in kinetic energy and enthalpy of the water from the top of the penstock to the outlet of the turbine are negligible. We sourced values from various websites for mass flow rate, change in height, and output power to calculate the efficiency of the Rankine generating station. These turbines had a cumulative power output of 76.4MW, although this dwindled before the station’s closing in 2005. 
-<br>
+<div class="proj-hero">
+  <span class="course-tag">ENGRD 2210 — Thermodynamics</span>
+  <h1>Niagara Falls — Rankine Generation Station</h1>
+  <p>Applying thermodynamic energy balance and efficiency analysis to a historical hydroelectric power station.</p>
+  <p class="authors">Isaac Kahn · Bridget McAvoy · Deepti Kousik</p>
+</div>
 
----
+<p class="section-label">Skills & Concepts</p>
+<div class="skill-chips">
+  <span class="chip">Thermodynamics</span>
+  <span class="chip">Energy Balance</span>
+  <span class="chip">Efficiency Analysis</span>
+  <span class="chip">Francis Turbines</span>
+  <span class="chip">Hydroelectric Power</span>
+</div>
 
-## System Diagrams
-Overall diagram of the generation station: 
-<br>
-<img src="{{ "/assets/images/thermo/thermo-5.png" | relative_url }}" alt="System Diagram of Niagara Falls Turbines" width="48%" class="center-image">
-<br>
-<br>
-Schematics for analysis: 
-<br>
-<img src="{{ "/assets/images/thermo/thermo-6.png" | relative_url }}" width="48%" alt="Turbine">
-<img src="{{ "/assets/images/thermo/thermo-7.png" | relative_url }}" width="48%" alt="Flow Path Visualization">
+<p class="section-label">Chosen System</p>
+<div class="highlight-box">
+  The <strong>Rankine Generating Station</strong> (1901–2005) was a hydroelectric facility on the Canadian side of Niagara Falls, built by the Canadian Niagara Power Company. Named after its founder William Birch Rankine — and notably <em>not</em> employing a Rankine Cycle — it generated power from the gravitational potential energy of the Niagara River, delivering electricity to the surrounding region for over a century through eleven Francis turbines with a combined output of <strong>76.4 MW</strong>.
+</div>
 
+<p class="section-label">Station Photographs</p>
+<div class="image-grid-2">
+  <img src="{{ "/assets/images/thermo/thermo-1.png" | relative_url }}" alt="Niagara Falls Power Station exterior" />
+  <img src="{{ "/assets/images/thermo/thermo-2.png" | relative_url }}" alt="Turbine diagram" />
+  <img src="{{ "/assets/images/thermo/thermo-3.png" | relative_url }}" alt="Interior of Power Station" />
+  <img src="{{ "/assets/images/thermo/thermo-4.png" | relative_url }}" alt="Historical Power Station view" />
+</div>
 
+<p class="section-label">Qualitative Description</p>
+<div class="highlight-box">
+  Water from the Niagara River was diverted into a forebay, then channeled through penstocks into eleven Francis turbines. Francis turbines are radial-flow machines optimized for high-pressure, low-flow-rate applications. For this analysis, changes in kinetic energy and enthalpy from the top of the penstock to the turbine outlet were assumed negligible. Mass flow rate, height change, and output power were sourced from historical records to calculate station efficiency.
+  <br><br>
+  The station closed in 2005 due to its generators outputting 25 Hz AC current (vs. the modern US standard of 60 Hz) and turbine shaft misalignment over time.
+</div>
 
----
+<p class="section-label">System Diagrams</p>
+<div class="image-single">
+  <img src="{{ "/assets/images/thermo/thermo-5.png" | relative_url }}" alt="Overall system diagram of the generation station" />
+  <p class="img-caption">Overall diagram of the Rankine Generation Station</p>
+</div>
+<div class="image-grid-2">
+  <div>
+    <img src="{{ "/assets/images/thermo/thermo-6.png" | relative_url }}" alt="Turbine schematic" />
+    <p class="img-caption">Turbine schematic for analysis</p>
+  </div>
+  <div>
+    <img src="{{ "/assets/images/thermo/thermo-7.png" | relative_url }}" alt="Flow path visualization" />
+    <p class="img-caption">Flow path visualization</p>
+  </div>
+</div>
 
-**Physical Equations**
+<p class="section-label">Physical Equations & Analysis</p>
 
+<div class="equation-block">
+  <p>Mass balance:&nbsp;&nbsp; ṁ_in = ṁ_out</p>
+  <p>Energy balance:&nbsp;&nbsp; Ė_CV = 0 = −Ẇ_shaft + ṁ [ (v_in² − v_out²)/2 + (h_in − h_out) + g(z_in − z_out) ]</p>
+  <p>Simplified (KE &amp; Δh negligible):&nbsp;&nbsp; Ẇ_shaft = ṁ · g · (z_in − z_out)</p>
+  <p>Ẇ_shaft = (0.1 × 1600 m³/s × 1000 kg/m³) × (9.81 m/s²) × (54.9 m) = <span class="eq-result">86.2 MW</span></p>
+  <p>η = W_act / W_shaft = 76.4 / 86.2 = <span class="eq-result">88.7%</span></p>
+</div>
 
-$$
-\dot{m}_{in} = \dot{m}_{out}
-$$
+<div>
+  <span class="result-card">
+    <span class="result-number">88.7%</span>
+    <span class="result-label">Turbine Efficiency</span>
+  </span>
+  &nbsp;&nbsp;
+  <span class="result-card">
+    <span class="result-number">76.4 MW</span>
+    <span class="result-label">Actual Power Output</span>
+  </span>
+</div>
 
-$$
-\dot{E}_{CV} = 0
-= -\dot{W}_{shaft}
-+ \dot{m}
-\left(
-\frac{v_{in}^2 - v_{out}^2}{2}
-+ h_{in} - h_{out}
-+ g (z_{in} - z_{out})
-\right)
-$$
+<p class="section-label">Changes to Operating Conditions</p>
+<div class="highlight-box">
+  Several modifications could increase power output: raising the forebay water level, optimizing penstock intake gates, or lowering the turbine pit — each increasing the effective head and extracting more energy per unit of water. However, these changes also raise mechanical stress, risk of cavitation, and potential for system failure.
+  <br><br>
+  Turbines also have optimal flow ranges; operating outside them increases hydraulic losses. Refurbishing turbine blades to reduce turbulence — and improving flow conditions in the penstocks and forebay — would raise overall efficiency without changing head geometry.
+</div>
 
-
-$$
-\dot{W}_{shaft}
-= \dot{m} g (z_{in} - z_{out})
-$$
-
-
-$$
-\dot{W}_{shaft}
-= (0.1 \times 1600 \, \text{m}^3/\text{s} \times 1000 \, \text{kg}/\text{m}^3)
-(9.81 \, \text{m}/\text{s}^2)
-(54.9 \, \text{m})
-= 86.2 \, \text{MW}
-$$
-
-$$
-\eta
-= \frac{W_{act}}{W_{shaft}}
-= \frac{76.4}{86.2}
-= 88.7\%
-$$
-
-
----
-
-## Changes to Operating Conditions
-
-There are several changes that could be made to the operation of the turbine. Increasing the water level of the river/reservoir (the forebay), optimizing the intake gates (the penstock), or lowering the level of the turbine pit would all increase the height of the fall that the working fluid experiences. This can result in a higher flow rate through the turbines, which will result in a greater power output. More energy is also extracted per unit of water, likewise increasing the output power, but these changes can have detrimental effects. This could increase the stress on elements of the turbines, reduce operational lifetime, cause cavitation, and increase risk of system failure
-
-Turbines also have optimal flow ranges where efficiency is highest. Increasing flow beyond this point can result in turbulence and hydraulic losses, while operating below this point will similarly be inefficient. Thus, extracting maximum energy must be balanced with the system conditions. Refurbishing the turbine blades to reduce turbulence will improve the turbine efficiency and minimize hydraulic losses, changing the power output without having to change the overall height of the fall. Reducing turbulence in other parts of the system - namely, the penstocks and the forebay - will help ensure the fluid reaches the turbines without significant energy losses due to friction and will help maximize overall efficiency. 	
-
----
-
-## References
-
-
-[1] http://spiff.rit.edu/classes/phys213/lectures/niagara/niagara.html
-<br>
-[2] http://www.niagarafrontier.com/power.html
-<br>
-[3] https://freaktography.com/canadian-niagara-power-station-and-tailrace-urban-exploring/?srsltid=AfmBOopTgFbLsaM-wVhE0ruC_KnSoa3pnhIuvyfGK-C-TrjtpmlksZo1&v=0b3b97fa6688
-<br>
-[4] https://www.croatianhistory.net/etf/teslan.html
-<br>
-[5]  https://vividcomm.com/2025/08/14/niagara-parks-power-station-history-technology-and-legacy/
+<p class="section-label">References</p>
+<div class="refs">
+  [1] <a href="http://spiff.rit.edu/classes/phys213/lectures/niagara/niagara.html" target="_blank">RIT Physics — Niagara Falls Lecture</a><br>
+  [2] <a href="http://www.niagarafrontier.com/power.html" target="_blank">Niagara Frontier — Power History</a><br>
+  [3] <a href="https://freaktography.com/canadian-niagara-power-station-and-tailrace-urban-exploring/" target="_blank">Freaktography — Canadian Niagara Power Station</a><br>
+  [4] <a href="https://www.croatianhistory.net/etf/teslan.html" target="_blank">Croatian History — Tesla &amp; Niagara</a><br>
+  [5] <a href="https://vividcomm.com/2025/08/14/niagara-parks-power-station-history-technology-and-legacy/" target="_blank">Vivid Comm — Niagara Parks Power Station Legacy</a>
+</div>
